@@ -50,7 +50,7 @@ int creatPLink(PLink* L)
 		return 0;
 	(*L)->next = NULL;
 	do {
-		printf("ÇëÊäÈëÏµÊýºÍÖ¸Êý£¬ÓÃ¿Õ¸ñ¸ö¿¿£¬ÏµÊýÎª0±íÊ¾½áÊø£º");
+		printf("è¯·è¾“å…¥ç³»æ•°å’ŒæŒ‡æ•°ï¼Œç”¨ç©ºæ ¼ä¸ªé ï¼Œç³»æ•°ä¸º0è¡¨ç¤ºç»“æŸï¼š");
 		int c = scanf("%lf %d", &X.coef, &X.exp);
 		if (fabs(X.coef) < 1E-6) {
 			break;
